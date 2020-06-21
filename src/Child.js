@@ -12,7 +12,7 @@ let value = React.useContext(ValueContext);
     <div>
     Child number {value}
     <br/>
-    <button onClick={()=>{updateValue(++value[0]) }}>  Update value</button>
+    <button onClick={()=>{updateValue(++value[0]); }}>  Update value</button>
     </div>
   );
 }
