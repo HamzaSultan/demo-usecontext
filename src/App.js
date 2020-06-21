@@ -6,9 +6,10 @@ import ValueContext from './ValueContext';
 
 function App() {
   //let [number , setNumber] = React.useState(40);
- let value = 85;
-
-
+ let value = React.useState (40);
+//  value [0]
+//  value [1]
+//value = [number , setNumber]
   return (
     <ValueContext.Provider value={value}>
   <div>

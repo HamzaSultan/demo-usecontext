@@ -4,12 +4,15 @@ import ValueContext from './ValueContext';
 
 function Child() {
 
-let Value = React.useContext(ValueContext);
-
+let value = React.useContext(ValueContext);
+ console.log("value", value);
+ let updateValue= value[1];
 
   return (
     <div>
-    Child number {Value}
+    Child number {value}
+    <br/>
+    <button onClick={()=>{updateValue(++value[0]) }}>  Update value</button>
     </div>
   );
 }
