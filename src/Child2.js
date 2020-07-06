@@ -1,4 +1,4 @@
-import React, {useContext ,useReducer} from 'react';
+import React, {_useContext ,useReducer} from 'react';
 import numberReducer from './numberReducer';
 
 
