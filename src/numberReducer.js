@@ -8,6 +8,7 @@ const numberReducer =
         return state + action.value
       case 'DECREMENT':
         return state - action.value
+          default:
     }
   }
   export default numberReducer;
