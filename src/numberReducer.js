@@ -1,4 +1,6 @@
+import React from 'react';
 const numberReducer =
+      
       (state, action) => {
     
     switch (action.type) {
